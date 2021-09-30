@@ -89,3 +89,5 @@ After receiving the vaccine the odds of women getting Aids are 1.543902 more lik
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
+
+The results showed us that the odds ratio of contracting aids after getting the vaccine for women are 1.543902:1. This concludes that there is a difference in the percent of women who took the vaccine compared to those who took placebo making us reject the null hypothesis. Women who took the vaccine were more likely to contract aids compared to those who took the placebo seeing that the odds ratio were on the confidence interval were above 1; The vaccine will not protect women but rather increases their chances of getting Aids 
