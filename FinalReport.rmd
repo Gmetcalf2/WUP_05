@@ -69,10 +69,17 @@ table1 <- xtabs(~infected + treatment, data= WomanData)
 rowPerc(table1)
 colPerc(table1)
 ```
+This table shows that 59% of women who contracted aids had gotten vaccinated beforehand and 41% did not get the vaccination.
+
 ## Inferential Results
 
 <!--State hypothesis clearly.  Make sure your discussion of the inferential test covers all the aspects that the test output produces, such as test statistic, p-value etc.  Make a decision about the null hypothesis, explain the assumptions on which the selected test/procedure was based, and why the chosen procedure satisfys the assumptions and is appropriate to answer the research question!-->
-
+```{r}
+chisq.test(table1)
+chisqtestGC(table1)
+fisher.test(table1)
+```
+This shows that 3 tests were ran and each P value were way too low so we reject the null hypothesis.
 
 # Discussion and Conclusion
 
